@@ -1,14 +1,8 @@
 # HUGO.386
 HUGO.386 is a port of the [BOOTSTRA.386](//github.com/kristopolous/BOOTSTRA.386) theme. It has a cool MS-DOS feeling and is ready to be used for blogs. Despite its antique look, the theme is responsive and can be viewed on mobile devices.
 
-## [Test it on live here!](//maxlefou.gitlab.io/hugo.386-test/)
-
 ![Example of Hugo blog with the theme](images/screenshot.png)
 
-## Installation
-Inside the folder of your Hugo site run:
-
-    $ git submodule add https://gitlab.com/maxlefou/hugo.386 themes/hugo.386
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -30,7 +24,7 @@ To use it, copy the [`config.toml`](//gitlab.com/maxlefou/hugo.386/blob/master/e
 
 In order to see your site in action, run Hugo's built-in local server. 
 
-    $ hugo server
+    $ cd site && hugo server --themesDir ../..
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
