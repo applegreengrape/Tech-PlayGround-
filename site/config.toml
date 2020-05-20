@@ -2,7 +2,7 @@ baseURL = "https://example.com"
 title = "🕹️ PlayGround.386"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
-theme = "hugo.386"
+theme = "tech-playground"
 preserveTaxonomyNames = true
 
 [params]
