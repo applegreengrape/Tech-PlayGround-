@@ -1,7 +1,12 @@
 body { 
-	visibility: hidden 
+	visibility: hidden
 }
 
 .navmargin {
 	margin-top: 2em;
 }
+
+.gist {
+    max-height:580px;
+    overflow:scroll;
+ }
