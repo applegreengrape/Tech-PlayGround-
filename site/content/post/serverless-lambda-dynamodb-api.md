@@ -1,7 +1,7 @@
 +++
 title = "Serverless Lambda Dynamodb API"
 date = "2020-02-12"
-description = "a reusable terraform module to spin up an api in 5 mins"
+description = "a reusable terraform module for an api-gateway"
 aliases = ["Post","post","blog","blog-page"]
 tags = ["python3", "serverless", "lambda", "dynamodb", "api", "2019nCov", "aws-api-gateway",]
 +++
@@ -20,10 +20,10 @@ The use case is I want to build a simple API to allow user to retrieve [coronavi
 
 👉 [click here for the diagram](https://raw.githubusercontent.com/applegreengrape/2019nCov-API/master/img/serverless-backend-api-diagram.png)
 
-Okie dokie, now let's look at the tools we can use from AWS. 
-- AWS API Gateway 
+Okie dokie, now let's look at the aws resources for an api
+- AWS API Gateway
 - AWS Cloudwatch Event
-- AWS Lambda 
+- AWS Lambda
 - AWS Dynamodb
 
 #### Let's terraform it up
@@ -43,7 +43,7 @@ Okie, dokie Let's look at the code. The key to make this more reusable is to pai
 
 Here is the output of the pairing 👇:
 
-```bash
+```
 (base) pingzhous-MBP:lambda-tf-v12 pingzhouliu$ terraform state list module.api-gw
 module.api-gw.aws_api_gateway_deployment.api-gw-module
 module.api-gw.aws_api_gateway_integration.api-gw-module["GET dxy"]
@@ -65,7 +65,7 @@ You can find the module's `main.tf` and `variables.tf` here 👇
 
 Now let's call the api-gw module:
 
-```bash
+```
 module "api-gw" {
   source = "./api-gw"
 
@@ -99,7 +99,7 @@ module "api-gw" {
 }
 ```
 🥳 🥳 🥳 Here you go! Your API is up 🤗 🤗 🤗
-```bash
+```
 pingzhous-MBP:lambda-tf-v12 pingzhouliu$ terraform output
 endpoint_id = https://4mmhkv7z9e.execute-api.eu-west-1.amazonaws.com/v1/
 execution_arn = arn:aws:execute-api:eu-west-1:900665556514:4mmhkv7z9e
