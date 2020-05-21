@@ -23,7 +23,7 @@ You will need to [install hugo](https://gohugo.io/getting-started/installing/) f
 
 The hugo server will be ready at [`localhost:1313`](http://localhost:1313).
 
-#### 3. add your post at👇
+#### 3. add your post here👇
 `./site/content/post/`
 
 You can check `markdown-syntax.md` for the markdown tips. 
