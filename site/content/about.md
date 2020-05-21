@@ -6,5 +6,6 @@ aliases = ["about-us","about-hugo","contact"]
 author = ""
 +++
 
-This is a blog to share tech projects, tips and verdict 💬
+This is a blog to share tech projects, tips and verdicts 💬
+
 👋 Learn more about it from the [GitHub Page](https://github.com/applegreengrape/tech-playground).
