@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://tech-playground.netlify.app"
 title = "🕹️ PlayGround.386"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
