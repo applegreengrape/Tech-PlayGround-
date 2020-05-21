@@ -4,6 +4,7 @@ date = "2020-02-12"
 description = "a reusable terraform module for an api-gateway"
 aliases = ["Post","post","blog","blog-page"]
 tags = ["python3", "serverless", "lambda", "dynamodb", "api", "2019nCov", "aws-api-gateway",]
+author = ""
 +++
 
 This post is about how to terraform up a serverless, scalable and resilient lambda API. I am using the [2019nCov-api](https://applegreengrape.github.io/posts/2019ncov-api/) as an example. In addition, we will have a look at terraform's built-in functions to make a more reusable modules for api gateway and lambdas. 

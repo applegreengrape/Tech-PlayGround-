@@ -1,5 +1,5 @@
 baseURL = "https://tech-playground.netlify.app"
-title = "🕹️ PlayGround.386"
+title = "🕹️ Tech PlayGround"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
 theme = "tech-playground"
@@ -7,7 +7,7 @@ preserveTaxonomyNames = true
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "🕹️ PlayGround.386"
+    mainpagetitle = "🕹️ Tech PlayGround"
 
     # The subtitle to display under the title in the home page
     mainpagesubtitle = "Welcome to the early 90s!" 
@@ -16,7 +16,7 @@ preserveTaxonomyNames = true
     mainpagedesc = "Hugo BOOTSTRA.386 theme by @JM Fergeau for a cool retro look"
 
     # The name to display in the copyright section in the footer
-    copyrightname = "Tech PlayGround 🕹️"
+    copyrightname = "🕹️ Tech PlayGround"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
     copyrighturl = "https://github.com/applegreengrape"
