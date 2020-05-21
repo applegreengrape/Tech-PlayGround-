@@ -125,4 +125,4 @@ $ curl -s https://4mmhkv7z9e.execute-api.eu-west-1.amazonaws.com/v1/dxy?date=202
   "msg": " No Man is an Island  🏝  没有人是一座孤岛 @pingzhou| 平舟 ⛵"
 }
 ```
-👉 [click here to see more examples of this API](/posts/2019ncov-api/)
+👉 [click here to see more examples of this API](https://applegreengrape.github.io/posts/2019ncov-api/)
